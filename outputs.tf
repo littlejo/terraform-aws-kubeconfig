@@ -1,3 +1,3 @@
-output "tunnel_ssh" {
+output "kubeconfig" {
   value = local.kubeconfig
 }

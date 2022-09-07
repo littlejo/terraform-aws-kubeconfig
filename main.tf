@@ -1,4 +1,4 @@
-local {
+locals {
   kubeconfig = templatefile(
     "${path.module}/templates/kubeconfig.tpl",
     {

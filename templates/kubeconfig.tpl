@@ -5,7 +5,7 @@ preferences:
 current-context: bastion
 clusters:
 - cluster:
-    server: https://127.0.0.1:{port}
+    server: https://127.0.0.1:${port}
     insecure-skip-tls-verify: true
   name: kubernetes
 contexts:
@@ -22,8 +22,8 @@ users:
       args:
         - "token"
         - "-i"
-        - "{cluster_name}"
+        - "${cluster_name}"
         - "--region"
-        - "{region}"
+        - "${region}"
         - "--role"
-        - "{role_arn}"
+        - "${role_arn}"

@@ -18,7 +18,6 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_eks_cluster.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster) | data source |
-| [aws_eks_cluster_auth.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster_auth) | data source |
 
 ## Inputs
 
@@ -26,6 +25,8 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | Cluster name | `string` | n/a | yes |
 | <a name="input_port"></a> [port](#input\_port) | Port name to connect (for ssh tunnel) | `string` | n/a | yes |
+| <a name="input_region"></a> [region](#input\_region) | Role arn | `string` | n/a | yes |
+| <a name="input_role_arn"></a> [role\_arn](#input\_role\_arn) | Role arn | `string` | n/a | yes |
 
 ## Outputs
 
